@@ -1,16 +1,17 @@
 # shopping_app
 
-A new Flutter project.
+Shopping app template using Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a template app for building up a shopping app using Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## To Do
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Login / Signup screen
+2. Home Page
+3. shopping cart
+4. payment gateway
+5. User account
+6. Favourites section
+7. AdMob
