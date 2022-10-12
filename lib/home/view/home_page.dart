@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: CupertinoNavigationBar(
         backgroundColor: Theme.of(context).canvasColor,
-        trailing: SignInButton(),
-        middle: AppTitle(),
+        trailing: const SignInButton(),
+        middle: const AppTitle(),
       ),
       body: ListView(
         physics: const ClampingScrollPhysics(),

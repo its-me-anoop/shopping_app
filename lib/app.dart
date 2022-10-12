@@ -11,9 +11,10 @@ class ShoppingApp extends StatelessWidget {
     return MaterialApp(
       home: const HomePage(),
       theme: ThemeData(
-          primarySwatch: Colors.green,
-          useMaterial3: true,
-          brightness: Brightness.dark),
+        primarySwatch: Colors.green,
+        useMaterial3: true,
+        brightness: Brightness.dark,
+      ),
     );
   }
 }
