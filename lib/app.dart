@@ -1,8 +1,19 @@
-// ignore_for_file: public_member_api_docs
-
 import 'package:flutter/material.dart';
 import 'package:shopping_app/home/home.dart';
 
-class ShoppingApp extends MaterialApp {
-  const ShoppingApp({super.key}) : super(home: const HomePage());
+///Shopping App
+class ShoppingApp extends StatelessWidget {
+  /// Shopping App Contents
+  const ShoppingApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: const HomePage(),
+      theme: ThemeData(
+          primarySwatch: Colors.green,
+          useMaterial3: true,
+          brightness: Brightness.dark),
+    );
+  }
 }

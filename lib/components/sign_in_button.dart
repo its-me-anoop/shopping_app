@@ -1,8 +1,8 @@
-// ignore_for_file: public_member_api_docs
-
 import 'package:flutter/material.dart';
 
+///Sign In Button
 class SignInButton extends StatelessWidget {
+  ///Sign In Button Widget goes here
   const SignInButton({
     super.key,
   });
